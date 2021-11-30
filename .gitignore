@@ -1,0 +1,6 @@
+/.vs
+*.*obj
+*.*log
+*.*db
+/x64
+/Debug
