@@ -22,9 +22,6 @@
     <Filter Include="Header Files\environment">
       <UniqueIdentifier>{0e71159b-bc0e-4788-bc82-426a586e86f8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\environment\shapes">
-      <UniqueIdentifier>{77bc9f3d-1631-45b8-a41e-e9f037ed1ab9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\environment\shapes">
       <UniqueIdentifier>{68930eba-d35b-4f45-bf6b-8841537a8620}</UniqueIdentifier>
     </Filter>
@@ -36,6 +33,30 @@
     </Filter>
     <Filter Include="Source Files\environment\point">
       <UniqueIdentifier>{5dce9e79-8639-4a45-9549-587cd1550564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\functions">
+      <UniqueIdentifier>{63a12d87-5d0e-4180-a4bf-70a5d47fab7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\environment\classes">
+      <UniqueIdentifier>{b3eff1f8-2811-4f3e-8357-56163294d53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\environment\classes\shapes">
+      <UniqueIdentifier>{77bc9f3d-1631-45b8-a41e-e9f037ed1ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\environment\env">
+      <UniqueIdentifier>{fd3ee6e6-63e2-411d-881d-90156caeee7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\functions\init">
+      <UniqueIdentifier>{a0c4b670-a2e4-4a5b-86f9-d946745db955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\functions\init\game_env">
+      <UniqueIdentifier>{31775865-ff8f-4ef8-b528-38daef1fa169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\functions\init\glut_env">
+      <UniqueIdentifier>{2a370fd4-f5a8-41e6-b0b0-d8bc18772eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\functions\draw">
+      <UniqueIdentifier>{001dcc3e-b2db-481a-8581-ad35223f551e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -63,22 +84,115 @@
     <ClCompile Include="point_operators.cpp">
       <Filter>Source Files\environment\point</Filter>
     </ClCompile>
+    <ClCompile Include="obj_colors.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="table.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files\environment\functions\init\game_env</Filter>
+    </ClCompile>
+    <ClCompile Include="init_keyboard.cpp">
+      <Filter>Source Files\environment\functions\init\game_env</Filter>
+    </ClCompile>
+    <ClCompile Include="init_obj_colors.cpp">
+      <Filter>Source Files\environment\functions\init\game_env</Filter>
+    </ClCompile>
+    <ClCompile Include="init_shifts.cpp">
+      <Filter>Source Files\environment\functions\init\game_env</Filter>
+    </ClCompile>
+    <ClCompile Include="init_snake.cpp">
+      <Filter>Source Files\environment\functions\init\game_env</Filter>
+    </ClCompile>
+    <ClCompile Include="init_table.cpp">
+      <Filter>Source Files\environment\functions\init\game_env</Filter>
+    </ClCompile>
+    <ClCompile Include="init_glut_functions.cpp">
+      <Filter>Source Files\environment\functions\init\glut_env</Filter>
+    </ClCompile>
+    <ClCompile Include="init_glut_window.cpp">
+      <Filter>Source Files\environment\functions\init\glut_env</Filter>
+    </ClCompile>
+    <ClCompile Include="init_glut.cpp">
+      <Filter>Source Files\environment\functions\init\glut_env</Filter>
+    </ClCompile>
+    <ClCompile Include="tick.cpp">
+      <Filter>Source Files\environment\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="snake_tick.cpp">
+      <Filter>Source Files\environment\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="handle_key.cpp">
+      <Filter>Source Files\environment\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="move_snake.cpp">
+      <Filter>Source Files\environment\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Source Files\environment\functions\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_scene.cpp">
+      <Filter>Source Files\environment\functions\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="apple.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="spawn_apple.cpp">
+      <Filter>Source Files\environment\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="check_head.cpp">
+      <Filter>Source Files\environment\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="game_over.cpp">
+      <Filter>Source Files\environment\functions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="color.hpp">
-      <Filter>Header Files\environment</Filter>
-    </ClInclude>
-    <ClInclude Include="drawable.hpp">
-      <Filter>Header Files\environment</Filter>
-    </ClInclude>
-    <ClInclude Include="point.hpp">
-      <Filter>Header Files\environment</Filter>
-    </ClInclude>
     <ClInclude Include="rectangle.hpp">
-      <Filter>Header Files\environment\shapes</Filter>
+      <Filter>Header Files\environment\classes\shapes</Filter>
     </ClInclude>
     <ClInclude Include="square.hpp">
-      <Filter>Header Files\environment\shapes</Filter>
+      <Filter>Header Files\environment\classes\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="color.hpp">
+      <Filter>Header Files\environment\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable.hpp">
+      <Filter>Header Files\environment\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="point.hpp">
+      <Filter>Header Files\environment\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.hpp">
+      <Filter>Header Files\environment\env</Filter>
+    </ClInclude>
+    <ClInclude Include="game_objects.hpp">
+      <Filter>Header Files\environment\env</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_colors.hpp">
+      <Filter>Header Files\environment\env</Filter>
+    </ClInclude>
+    <ClInclude Include="table.hpp">
+      <Filter>Header Files\environment\env</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.hpp">
+      <Filter>Header Files\environment\env</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.hpp">
+      <Filter>Header Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="direction.hpp">
+      <Filter>Header Files\environment\env</Filter>
+    </ClInclude>
+    <ClInclude Include="apple.hpp">
+      <Filter>Header Files\environment\env</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

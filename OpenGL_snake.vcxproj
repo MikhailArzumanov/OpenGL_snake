@@ -142,21 +142,52 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="apple.cpp" />
+    <ClCompile Include="check_head.cpp" />
     <ClCompile Include="color_constructors.cpp" />
     <ClCompile Include="color_set_to_env.cpp" />
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="draw_scene.cpp" />
+    <ClCompile Include="game_over.cpp" />
+    <ClCompile Include="handle_key.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="init_glut.cpp" />
+    <ClCompile Include="init_glut_functions.cpp" />
+    <ClCompile Include="init_glut_window.cpp" />
+    <ClCompile Include="init_keyboard.cpp" />
+    <ClCompile Include="init_obj_colors.cpp" />
+    <ClCompile Include="init_shifts.cpp" />
+    <ClCompile Include="init_snake.cpp" />
+    <ClCompile Include="init_table.cpp" />
+    <ClCompile Include="keyboard.cpp" />
+    <ClCompile Include="move_snake.cpp" />
+    <ClCompile Include="obj_colors.cpp" />
     <ClCompile Include="point_operators.cpp" />
     <ClCompile Include="rectangle_draw.cpp" />
     <ClCompile Include="OpenGL_snake.cpp" />
     <ClCompile Include="rectangle_constructors.cpp" />
     <ClCompile Include="rectangle_setters.cpp" />
+    <ClCompile Include="snake.cpp" />
+    <ClCompile Include="snake_tick.cpp" />
+    <ClCompile Include="spawn_apple.cpp" />
     <ClCompile Include="square_constructors.cpp" />
+    <ClCompile Include="table.cpp" />
+    <ClCompile Include="tick.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="apple.hpp" />
     <ClInclude Include="color.hpp" />
+    <ClInclude Include="direction.hpp" />
     <ClInclude Include="drawable.hpp" />
+    <ClInclude Include="functions.hpp" />
+    <ClInclude Include="game_objects.hpp" />
+    <ClInclude Include="keyboard.hpp" />
+    <ClInclude Include="obj_colors.hpp" />
     <ClInclude Include="point.hpp" />
     <ClInclude Include="rectangle.hpp" />
+    <ClInclude Include="snake.hpp" />
     <ClInclude Include="square.hpp" />
+    <ClInclude Include="table.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
