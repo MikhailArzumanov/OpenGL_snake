@@ -13,10 +13,72 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\environment">
+      <UniqueIdentifier>{d591128d-2dd5-4a31-b5c9-83a8931db7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\color">
+      <UniqueIdentifier>{b8894184-0283-4a21-bd54-14dc278247d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\environment">
+      <UniqueIdentifier>{0e71159b-bc0e-4788-bc82-426a586e86f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\environment\shapes">
+      <UniqueIdentifier>{77bc9f3d-1631-45b8-a41e-e9f037ed1ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\shapes">
+      <UniqueIdentifier>{68930eba-d35b-4f45-bf6b-8841537a8620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\shapes\square">
+      <UniqueIdentifier>{8329a540-8048-4e9f-bb3f-403401f4d193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\shapes\rectangle">
+      <UniqueIdentifier>{ac62e0f9-3e4f-484a-827f-dd1e2dfb20b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment\point">
+      <UniqueIdentifier>{5dce9e79-8639-4a45-9549-587cd1550564}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenGL_snake.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="color_set_to_env.cpp">
+      <Filter>Source Files\environment\color</Filter>
+    </ClCompile>
+    <ClCompile Include="square_constructors.cpp">
+      <Filter>Source Files\environment\shapes\square</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle_constructors.cpp">
+      <Filter>Source Files\environment\shapes\rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle_draw.cpp">
+      <Filter>Source Files\environment\shapes\rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="color_constructors.cpp">
+      <Filter>Source Files\environment\color</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle_setters.cpp">
+      <Filter>Source Files\environment\shapes\rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="point_operators.cpp">
+      <Filter>Source Files\environment\point</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="color.hpp">
+      <Filter>Header Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable.hpp">
+      <Filter>Header Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="point.hpp">
+      <Filter>Header Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.hpp">
+      <Filter>Header Files\environment\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="square.hpp">
+      <Filter>Header Files\environment\shapes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

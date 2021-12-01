@@ -3,5 +3,5 @@
 
 class Square : public Rectangle {
 public:
-    Square(point c_, float r_, Color color_);
+    Square(point c_, int r_, Color color_);
 };

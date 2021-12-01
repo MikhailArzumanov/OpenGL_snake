@@ -142,7 +142,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="color_constructors.cpp" />
+    <ClCompile Include="color_set_to_env.cpp" />
+    <ClCompile Include="point_operators.cpp" />
+    <ClCompile Include="rectangle_draw.cpp" />
     <ClCompile Include="OpenGL_snake.cpp" />
+    <ClCompile Include="rectangle_constructors.cpp" />
+    <ClCompile Include="rectangle_setters.cpp" />
+    <ClCompile Include="square_constructors.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="color.hpp" />
+    <ClInclude Include="drawable.hpp" />
+    <ClInclude Include="point.hpp" />
+    <ClInclude Include="rectangle.hpp" />
+    <ClInclude Include="square.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,5 @@
 #pragma once
 struct point {
-    float x, y;
+    int x, y;
+    point operator+(point another);
 };
