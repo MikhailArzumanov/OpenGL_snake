@@ -3,7 +3,7 @@
 #include "apple.hpp"
 
 void check_head(point head) {
-    switch (table[head.y][head.x]) {
+    switch (head>>table) {
     case apple:
         was_apple_eaten = true;
         break;
